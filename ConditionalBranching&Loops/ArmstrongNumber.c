@@ -8,7 +8,7 @@ int main(){
     int sum;
     while(num>0){
         int temp = num %10;
-        sum +=  temp * temp * temp;
+        sum +=  temp * temp * temp; //for 3 digit number..
         num /= 10;
     }
 
